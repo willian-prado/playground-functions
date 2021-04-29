@@ -8,7 +8,7 @@ function techList(myArray, name) {
   let newArray = [];
 
   for (let index in myArray){
-    objeto = {
+    let objeto = {
       tech: myArray[index],
       name: name
     }
@@ -36,7 +36,7 @@ console.log(techList([], "Lucas"))
 function generatePhoneNumber(myArray) {
 
   if (myArray.length !== 11){
-    return "Array com tamanho incorreto."
+    return "Array com tamanho incorreto.";
   }
 
   let flagNotPrint = false;
@@ -89,9 +89,32 @@ console.log(generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]));  //Array co
 
 
 // Desafio 12
-function triangleCheck() {
-  // seu código aqui
+function triangleCheck(lineA, lineB, lineC) {
+  
+  let sumAB = lineA + lineB;
+  let sumAC = lineA + lineC;
+  let sumBC = lineB + lineC;
+  let difAB = Math.abs(lineA - lineB);
+  let difAC = Math.abs(lineA - lineC);
+  let difBC = Math.abs(lineB - lineC);
+
+  let flag = false;
+
+  if ((lineA < sumBC) && (lineA > difBC)){
+    flag = true;
+  } else if ((lineB < sumAC) && (lineB > difAC)) {
+    flag = true;
+  } else if ((lineC < sumAB) && (lineC > difAB)) {
+    flag = true;
+  }
+
+  return flag;
+
 }
+
+console.log(triangleCheck(5, 7, 8))
+console.log(triangleCheck(15, 7, 8))
+
 
 // Desafio 13
 function hydrate() {
