@@ -119,7 +119,7 @@ function fizzBuzz(myArray) {
     } else if ((myArray[index] % 3 === 0) && (myArray[index] % 5 === 0)) {
       strArray.push("fizzBuzz");
     } else if ((myArray[index] % 3 !== 0) && (myArray[index] % 5 !== 0)) {
-      strArray.push("bug");
+      strArray.push("bug!");
     }
   }
 
@@ -129,13 +129,70 @@ function fizzBuzz(myArray) {
 
 console.log(fizzBuzz([2, 15, 7, 9, 45]));
 
-// Desafio 9
-function encode() {
-  // seu código aqui
+// Desafio 9 
+function encode(myString) {
+  
+  let newString = "";
+
+  for (let char of myString){
+    switch (char) {
+      case "a": 
+        newString += "1";
+        break;
+      case "e": 
+        newString += "2";
+        break;
+      case "i": 
+        newString += "3";
+        break;
+      case "o": 
+        newString += "4";
+        break;
+      case "u":
+        newString += "5";
+        break;
+      default:
+        newString += char;
+        break;
+    }  
+  }
+
+  return newString;
 }
-function decode() {
-  // seu código aqui
+
+console.log(encode("hi there!"))
+
+function decode(myString) {
+
+  let newString = "";
+
+  for (let char of myString){
+    switch (char) {
+      case "1": 
+        newString += "a";
+        break;
+      case "2": 
+        newString += "e";
+        break;
+      case "3": 
+        newString += "i";
+        break;
+      case "4": 
+        newString += "o";
+        break;
+      case "5":
+        newString += "u";
+        break;
+      default:
+        newString += char;
+        break;
+    }  
+  }
+  
+  return newString;
 }
+
+console.log(decode("h3 th2r2!"));
 
 module.exports = {
   calcArea,
