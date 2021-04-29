@@ -43,15 +43,11 @@ function generatePhoneNumber(myArray) {
   let contador = {};
   let formatNumber = ""
 
+  myArray.forEach(key => contador[key] = 0);
+
   for (let index = 0; index < myArray.length; index += 1) {
     if ((myArray[index] < 0) || (myArray[index] > 9)){
       return "não é possível gerar um número de telefone com esses valores";
-    }
-
-    if (!(myArray[index] in contador)){
-      contador[myArray[index]] = 0;
-    } else {
-      contador[myArray[index]] += 1;
     }
 
     if (index == 0) {
@@ -66,10 +62,12 @@ function generatePhoneNumber(myArray) {
       formatNumber += `${myArray[index]}`;
     }
 
+    contador[myArray[index]] += 1;
+
   }
 
   for (let key in contador){
-    if (contador[key] >= 3){
+    if (contador[key] > 2){
       flagNotPrint = true;
     }
   }
@@ -85,8 +83,10 @@ function generatePhoneNumber(myArray) {
 console.log(generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 10]));  //Numero do array diferente de 11
 console.log(generatePhoneNumber([1, -2, 3, 4, 5, 6, 7, 8, 9, 0, 1]));   //Numero menor que 0
 console.log(generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 12, 0, 1]));   //Numero maior que 9
+console.log(generatePhoneNumber([2, 2, 2, 1, 5, 6, 7, 8, 9, 0, 1]));   //Numero repetido mais de 3 vezes
 console.log(generatePhoneNumber([2, 2, 2, 2, 5, 6, 7, 8, 9, 0, 1]));   //Numero repetido mais de 3 vezes
 console.log(generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]));  //Array correto
+
 
 // Desafio 12
 function triangleCheck() {
