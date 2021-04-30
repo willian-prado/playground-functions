@@ -124,26 +124,15 @@ function hydrate(myString) {
   let matches = myString.match(regex);
   let waterCups = 0;
 
-  let flag = true;
-
   for (let index of matches){
-    let number = Number(index);
-
-    if ((number > 0) && (number < 10)){
-      waterCups += Number(index);
-    } else {
-      flag = false;
-    }
+    waterCups += Number(index);
   }
 
-  if (flag){
-    return `${waterCups} copos de água`;
-  } 
+  return `${waterCups} copos de água`;
 }
 
 console.log(hydrate("1 cerveja"));
 console.log(hydrate("1 cachaça, 5 cervejas e 1 copo de vinho"));
-console.log(hydrate("1 cachaça, 15 cervejas e 1 copo de vinho"));
 
 
 module.exports = {
