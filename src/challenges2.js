@@ -119,17 +119,14 @@ console.log(triangleCheck(15, 7, 8))
 // Desafio 13
 function hydrate(myString) {
 
-  let regex = /\d+/g;
+  let regex = /[1-9]/g;
 
   let matches = myString.match(regex);
   let waterCups = 0;
 
   for (let index of matches){
-    let number = Number(index);
-
-    if ((number > 0) && (number < 10)){
-      waterCups += number;
-    }
+    console.log(index);
+    waterCups += Number(index);
   }
 
   return `${waterCups} copos de água`;
