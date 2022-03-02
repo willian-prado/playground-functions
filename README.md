@@ -1,7 +1,7 @@
 ## Projeto Playground Functions!
 
-Segundo projeto realizado no curso de desenvolvimento web da Trybe, aqui tivemos nosso contato inicial com a linguagem JavaScript e pudemos
-treinar habilidades básicas, como:
+Segundo projeto realizado no curso de desenvolvimento web da Trybe. \
+Nesse projeto, que é realizado após nosso contato inicial com a linguagem JavaScript, aplicamos um pouco dos conceitos básicos da linguagem, como:
 
 - Escrever códigos utilizando variáveis e tipos primitivos;
 - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
