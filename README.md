@@ -14,6 +14,8 @@ treinar habilidades básicas, como:
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
 
+---
+
 ### Lista de requisitos propostos:
 
 #### Obrigatórios
