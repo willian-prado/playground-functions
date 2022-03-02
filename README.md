@@ -4,7 +4,7 @@ Segundo projeto do módulo de Fundamentos do curso de desenvolvimento web da Try
 Nesse projeto, que é realizado após nosso primeiro contato com JavaScript, aplicamos um pouco dos conceitos básicos da linguagem, como:
 
 - Escrever códigos utilizando variáveis e tipos primitivos;
-- Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
+- Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição;
 - Criar códigos que usam estruturas condicionais, como o if/else;
 - Manipular arrays (listas);
 - Utilizar o comando for;
@@ -12,7 +12,7 @@ Nesse projeto, que é realizado após nosso primeiro contato com JavaScript, apl
 - Utilizar a lógica de programação na resolução de problemas;
 - Manipular objetos;
 - Utilizar o comando for/in ;
-- Utilizar funções para organizar e estruturar o seu código;
+- Utilizar funções para organizar e estruturar o código;
 
 ---
 
