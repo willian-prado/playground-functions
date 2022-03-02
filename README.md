@@ -1,4 +1,4 @@
-## Projeto Playground Functions!
+## Projeto Playground Functions
 
 Segundo projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe. \
 Nesse projeto, que é realizado após nosso primeiro contato com a linguagem JavaScript, aplicamos um pouco dos conceitos básicos da linguagem, como:
