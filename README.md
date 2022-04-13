@@ -1,7 +1,10 @@
 ## Projeto Playground Functions
 
-Segundo projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe. \
-Nesse projeto, que é realizado após nosso primeiro contato com JavaScript, aplicamos um pouco dos conceitos básicos da linguagem.
+> Segundo projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe.
+
+**Objetivo do projeto**
+
+Construir uma série de funções que retornam os resultados esperados pelos requisitos propostos, aplicando conceitos básicos da linguagem JavaScript.
 
 **Principais habilidades desenvolvidas nesse trabalho:**
 
@@ -16,9 +19,12 @@ Nesse projeto, que é realizado após nosso primeiro contato com JavaScript, apl
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o código;
 
+**Tecnologias utilizadas**
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" align="center" height="30"/> - JavaScript</a>
+
 ---
 
-### Lista de requisitos propostos:
+### Lista de requisitos propostos pela Trybe:
 
 #### Obrigatórios
 
