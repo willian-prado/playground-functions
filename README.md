@@ -4,7 +4,7 @@
 
 **Objetivo do projeto**
 
-Construir uma série de funções que retornam os resultados esperados pelos requisitos propostos, aplicando conceitos básicos da linguagem JavaScript.
+Construir uma série de funções que retornam os resultados esperados pelos requisitos propostos aplicando conceitos básicos da linguagem JavaScript.
 
 **Principais habilidades desenvolvidas nesse trabalho:**
 
