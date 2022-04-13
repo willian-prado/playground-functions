@@ -2,6 +2,10 @@
 
 > Segundo projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe.
 
+**Contexto**
+
+Após nosso contato inicial com JavaScript, neste trabalho tínhamos que resolver uma sequência de desafios com os aprendizados adquiridos.
+
 **Objetivo do projeto**
 
 Construir uma série de funções que retornam os resultados esperados pelos requisitos propostos aplicando conceitos básicos da linguagem JavaScript.
