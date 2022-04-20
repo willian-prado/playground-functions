@@ -1,16 +1,16 @@
 ## Projeto Playground Functions
 
-> Segundo projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe.
+> Segundo projeto do módulo de Fundamentos do curso de desenvolvimento web da [Trybe](https://www.betrybe.com/)
 
 **Contexto**
 
-Após nosso contato inicial com JavaScript, neste trabalho tínhamos que resolver uma sequência de desafios com os aprendizados adquiridos.
+Após nosso contato inicial com JavaScript, nesse trabalho precisamos resolver uma sequência de desafios com os aprendizados adquiridos.
 
 **Objetivo do projeto**
 
 Construir uma série de funções que retornam os resultados esperados pelos requisitos propostos aplicando conceitos básicos da linguagem JavaScript.
 
-**Principais habilidades desenvolvidas nesse trabalho:**
+**Principais habilidades desenvolvidas nesse trabalho**
 
 - Escrever códigos utilizando variáveis e tipos primitivos;
 - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição;
@@ -23,7 +23,7 @@ Construir uma série de funções que retornam os resultados esperados pelos req
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o código;
 
-**Tecnologias utilizadas**
+**Tecnologia utilizada**
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" align="center" height="30"/> - JavaScript</a>
 
 ---
@@ -183,3 +183,7 @@ String retornada:
 - O número na frente de cada bebida está no intervalo entre 1 e 9.
 
 **Dica:** pesquise por algo similar a `get all integers inside a string js`.
+
+---
+
+[Ir para a lista de projetos](https://github.com/willian-prado/trybe-records)
